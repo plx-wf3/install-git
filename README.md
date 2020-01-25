@@ -19,7 +19,7 @@ log in as a normal user on your centos minimal
   ./configure --prefix=/usr/local
   nproc    # display the number of core 
   make -j<value of nproc>
-  make j<value of nproc> test 
+  make -j<value of nproc> test 
   git --version 
   sudo yum -y remove git 
   git --version 

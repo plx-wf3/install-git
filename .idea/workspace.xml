@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cb09114-7380-4b80-9c64-b5158a69dcbd" name="Default Changelist" comment="add more info in README.md file">
+    <list default="true" id="7cb09114-7380-4b80-9c64-b5158a69dcbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <updated>1578748005095</updated>
       <workItem from="1578748006303" duration="254000" />
       <workItem from="1578756182020" duration="2336000" />
-      <workItem from="1580146101772" duration="2088000" />
+      <workItem from="1580146101772" duration="2944000" />
     </task>
     <servers />
   </component>
@@ -101,6 +102,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="182" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1580152979880" />
+    <state x="552" y="182" key="#Notifications" timestamp="1580187664331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1580187664331" />
     <state x="552" y="183" key="#Updates" timestamp="1578732425985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,11 +114,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578673800068" />
-    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1580187562712">
+    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1580187645348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578661939880" />
-    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580187562712" />
+    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580187645348" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1580148081581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,15 +128,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="823" y="444" key="Github.Dialog.Accounts.Choose/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578661948488" />
-    <state x="463" y="166" key="SettingsEditor" timestamp="1580187639198">
+    <state x="463" y="166" key="SettingsEditor" timestamp="1580187791422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578734591113" />
-    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580187639198" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580187572067">
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580187791422" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580187757911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578661942901" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580187572067" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580187757911" />
   </component>
 </project>

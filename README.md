@@ -201,6 +201,32 @@ ls -alrt
 # (cmd suivante le fait en remote)
 # git push origin :refs/tags/<nom_dutag> 
 # 
+# Savoir les branches systemes
+# * = branche courante
+# git branch
+# git branch -v
+# Test format nom de branch (voir restriction)
+# git check-ref-format --branch 2.x/fix/ticket
+# Création nouvelle branche
+# git branch <nom_de_branche>
+# Changer de branche
+# git checkout <nom_de_branche>
+# Faire nouvelle branche et se mettre dessus direct
+# git checkout -b <nom_de_branche>
+# 
+# Pour fusionner des branches
+# -> /!\ Se mettre sur branches master en premier
+# git merge <nom_de_branche>
+# 
+# ?????
+# git rebase
+# 
+# Voir liste repo distant
+# git remote
+# 
+# 
+# 
+# 
 # 
 # 
 # 

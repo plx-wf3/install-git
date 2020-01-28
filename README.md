@@ -41,6 +41,7 @@ installer ansible dans un virtualenv
     pip3 install ansible
 ````
 
+
 ## installer docker en utilisant le playbook 
 ```shell script
     ansible-playbook -i inventory playbook

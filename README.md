@@ -193,7 +193,8 @@ ls -alrt
 # git tag v1.2
 # git show <tag>
 # 
-# 
+# Push with tag(?)
+# git push origin --tags
 # 
 # 
 # 

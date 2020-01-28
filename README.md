@@ -119,7 +119,67 @@ ls -alrt
 # Check config file
 # cat ~/.gitconfig
 # 
-
+# Editer fichier config
+# Changer editeur par defaut
+# git config --global -e
+# git config --global core.editor <nomediteur>
+# 
+# Ajout alias:
+# hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+# 
+# Voir fonctionnement de git
+# echo content > <filename(plus extension)>
+# git st(atus)
+# -> le fichier n'est pas suivi
+# git add <filename>
+# git st
+# -> le fichier est "suivi"
+# 
+# 
+# git commit -m "<description/commentaire>"
+# git log
+# 
+# Permet de voir les fichier pret à être commiter
+# commande "plomberie"
+# git ls-files --stage
+# 
+# Affiche le dernier commit
+# git log -1
+# 
+# stages new files and modifications, without deletions
+# git add .
+# git st
+# 
+# ?????
+# git commit -am "<description/commentaire>"
+# ?????
+# .gitignore was needed for this...
+# ?????
+# see git stash (?)
+# ?????
+# 
+# rtfm:
+# git mv <file>
+# git rm <file>
+# git rm --cached <file>
+# git log --oneline
+# git log --oneline -4
+# Voir alias (au dessus)
+# git hist
+# git diff
+# git diff --cached
+# git hist
+# -> get "hashnumber"
+# git diff <hashnumber>
+# git diff <hashnumber>..HEAD
+# git blame <file>
+# Search ?
+# git log -S <text>
+# /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
+# Irreversible, ne pas faire ! 
+# git reset --hard HEAD
+# /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\ 
+# 
 
 
 ```

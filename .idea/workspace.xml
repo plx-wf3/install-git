@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cb09114-7380-4b80-9c64-b5158a69dcbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7cb09114-7380-4b80-9c64-b5158a69dcbd" name="Default Changelist" comment="add more info in README.md file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +109,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578673800068" />
-    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1580186785441">
+    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1580187562712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578661939880" />
-    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580186785441" />
+    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580187562712" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1580148081581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,15 +123,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="823" y="444" key="Github.Dialog.Accounts.Choose/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578661948488" />
-    <state x="463" y="166" key="SettingsEditor" timestamp="1580186824486">
+    <state x="463" y="166" key="SettingsEditor" timestamp="1580187639198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578734591113" />
-    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580186824486" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580186788797">
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580187639198" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580187572067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.16.1680.1010/1920.0.1440.860/3360.0.1360.728@0.0.1920.1040" timestamp="1578661942901" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580186788797" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580187572067" />
   </component>
 </project>

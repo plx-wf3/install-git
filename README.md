@@ -25,6 +25,7 @@ log in as a normal user on your centos minimal
   git --version 
   sudo make install 
   git --version 
+# reinitialiser le shell
   source ~/.bash_profile 
   git --version 
 ``` 
@@ -32,6 +33,7 @@ log in as a normal user on your centos minimal
 ## Installer docker en utilisant le repo ci-dessous 
 ```shell script
    git clone https://github.com/system-dev-formations/install-docker-centos7.git
+   cd install-docker-centos7
 ```
 installer ansible dans un virtualenv 
 ```shell script
@@ -43,7 +45,7 @@ installer ansible dans un virtualenv
 
 ## installer docker en utilisant le playbook 
 ```shell script
-    ansible-playbook -i inventory playbook
+    ansible-playbook -i inventory playbook.yml
 ```
 
 ## Demarrer Bitbucket dans un container 
@@ -61,7 +63,7 @@ docker run -v bitbucketVolume:/var/atlassian/application-data/bitbucket --name="
 ## Installer docker-compose
 Si vous avez perdu votre connexion avec virtualenv faites  
 ```shell script
-   source ~/intall-docker-centos7/venv/bin/activate
+   source ~/install-docker-centos7/venv/bin/activate
 ```
 autrement faites
 ```shell script
@@ -77,6 +79,7 @@ mkdir -p /home/centos/git-repo/project-1.git
 cd git-repo/
 cd project-1.git/
 git init --bare
+# voir liste fichier avec plus recent vers le bas
 ls -alrt
 ```
 ## utiisation de ce simple serveur git a partir de machine local
@@ -91,6 +94,34 @@ ls -alrt
   git remote add origin ssh://<votre_user>@<votre_ip_adresse/home/centos/git-repo/project-1.git
   git push -u origin master
   git status
+
+## "suite"
+# TOUJOURS EN "LOCAL"
+# Connect to gitlabs
+# Make project
+# -> "public"
+# -> "with README"
+# Clone project (http)
+# In empty folder/project folder
+# -> git clone <url>
+# Dans le fichier nouveau fichier créer
+# git remote -v
+# Donne l'url d'ou on est connecté
+# 
+# git config --global user.name "<username>"
+# git config --global user.email "<usermail>"
+# 
+# Mettre des aliases
+# git config --global alias.br branch
+# git config --global alias.ci commit
+# git config --global alias.st status
+# git config --global alias.last 'log -1 HEAD'
+# Check config file
+# cat ~/.gitconfig
+# 
+
+
+
 ```
 
 

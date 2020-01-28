@@ -7,8 +7,8 @@ log in as a normal user on your centos minimal
 ```shell script
   cd
   git
-  yum -y update
-  yum -y install wget 
+  sudo yum -y update
+  sudo yum -y install wget 
   wget  https://github.com/git/git/archive/v2.25.0.tar.gz
   tar -zxvf v2.25.0.tar.gz 
   cd git-2.25.0

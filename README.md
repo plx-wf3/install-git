@@ -52,7 +52,25 @@ docker volume create --name bitbucketVolume
 docker run -v bitbucketVolume:/var/atlassian/application-data/bitbucket --name="bitbucket" -d -p 7990:7990 \
                    -p 7999:7999 atlassian/bitbucket-server
 ````
+## Installer Gitlab dans un container 
+```shell script
+   git clone https://github.com/cesigit/docker-gitlab
+   cd docker-gitlab
+```
 
+## Installer docker-compose
+Si vous avez perdu votre connexion avec virtualenv faites  
+```shell script
+   source ~/intall-docker-centos7/venv/bin/activate
+```
+autrement faites
+```shell script
+   pip3 install docker-compose
+```
+et lancer le container gitlab 
+```shell script
+   docker-compose up -d 
+```
 
 
 

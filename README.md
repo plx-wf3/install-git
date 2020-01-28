@@ -2,7 +2,7 @@
 Set up the latest git version on different Linux distro  
 Source code from https://github.com/git/git/archive/v2.25.0.tar.gz
 
-## Manual install on centos
+## Installation a partir des sources sous centos7
 log in as a normal user on your centos minimal  
 ```shell script
   cd
@@ -28,3 +28,20 @@ log in as a normal user on your centos minimal
   source ~/.bash_profile 
   git --version 
 ``` 
+
+## Installer docker en utilisant le repo ci-dessous 
+```shell script
+   git clone https://github.com/system-dev-formations/install-docker-centos7.git
+```
+installer ansible dans un virtualenv 
+```shell script
+    sudo yum -y install python3
+    python3 -m venv venv
+    source venv/bin/activate
+    pip3 install ansible
+````
+
+## installer docker en utilisant le playbook 
+```shell script
+    ansible-playbook -i inventory playbook
+```

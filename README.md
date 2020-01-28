@@ -178,9 +178,25 @@ ls -alrt
 # /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
 # Irreversible, ne pas faire ! 
 # git reset --hard HEAD
+# Reversible
+# git reset <hash_du_commit>
 # /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\ 
 # 
-
+# ?????
+# git commit --amend
+# git commit --amend --no-edit
+# 
+# Tag
+# Aide a l'identification
+# git checkout <valeur_du_hash>
+# git tag <nom_du_tag> <valeur_du_hash>
+# git tag v1.2
+# git show <tag>
+# 
+# 
+# 
+# 
+# 
 
 ```
 

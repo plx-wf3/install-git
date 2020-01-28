@@ -195,6 +195,12 @@ ls -alrt
 # 
 # Push with tag(?)
 # git push origin --tags
+# (commande suivante est visible qu'en local, ne supprime pas le push du dessus, etc)
+# supprime le tag
+# git tag -d <nom_du_tag>
+# (cmd suivante le fait en remote)
+# git push origin :refs/tags/<nom_dutag> 
+# 
 # 
 # 
 # 

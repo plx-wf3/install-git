@@ -71,6 +71,29 @@ et lancer le container gitlab
 ```shell script
    docker-compose up -d 
 ```
+## installation simple d'un serveur git 
+```shell script
+mkdir -p /home/centos/git-repo/project-1.git
+cd git-repo/
+cd project-1.git/
+git init --bare
+ls -alrt
+```
+## utiisation de ce simple serveur git a partir de machine local
+```shell script
+  cd ~/git-roubaix
+  mkdir simple-git 
+  cd simple-git
+  git init
+  echo \#Test > README.md
+  git add .
+  git commit -m"First init"
+  git remote add origin ssh://<votre_user>@<votre_ip_adresse/home/centos/git-repo/project-1.git
+  git push -u origin master
+  git status
+```
+
+
 
 
 

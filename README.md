@@ -374,9 +374,26 @@ ls -alrt
 # (-> toujours un conflit)
 # (annulation/suppression de rebase)
 # git rebase--abort
+# ( ????? )
+# git rebase -Xours origin/master
+# git log --oneline
 # 
-# 
-# 
+# *******************************************
+# Exercice: suite.
+# Cesigit - super_calc
+# cd super_calc/
+# git branch
+# git branch -av
+# git worktree add -b features ../super_calc_features origin/features
+# cd ../super_calc_features/
+# vim calc.html (modif title)
+# git commit -am "Update title" ( -am == add && message)
+# cd ../super_calc
+# git branch
+# git log --oneline features
+# git worktree list
+# rm -Rf ../super_calc_features/
+# git worktree prune
 # 
 
 ```

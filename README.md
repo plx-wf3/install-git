@@ -351,7 +351,29 @@ ls -alrt
 # git log --oneline
 # (cherry-pick && rebase == meme difference)
 # (cherry-pick == "old")
-# 
+# git checkout master
+# git merge cpick
+# git push
+# - - - - -
+# (back in calc2)
+# git branch -av
+# git branch ui origin/ui
+# git branch -av
+# git merge ui
+# git push origin master
+# (-> conflit because modif above)
+# git pull origin master
+# (-> conflit because modif above)
+# (annulation/suppression de merge)
+# git merge --abort
+# (mettre a jour repo distant sans mettre a jour branches locales)
+# git fetch
+# git branch
+# git hist (see alias)
+# git rebase origin/master
+# (-> toujours un conflit)
+# (annulation/suppression de rebase)
+# git rebase--abort
 # 
 # 
 # 

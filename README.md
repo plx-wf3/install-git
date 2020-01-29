@@ -223,6 +223,33 @@ ls -alrt
 # 
 # Voir liste repo distant
 # git remote
+# ---
+# exercices: 29.01.2020
+# echo content > file1.c
+# echo content > file2.c
+# git add .
+# git st
+# git commit -m "comment string"
+# git log -1
+# (commande suivante: ajoute à la fin du fichier, "append")
+# echo more >> file1.c
+# git commit -am "comment string(2)"
+# git cat-file -t <hash_du_commit(?)>
+# Affiche tree SHA1
+# git cat-file -p <hash_du_commit(?)>
+# git cat-file -p <tree_SHA1>
+# Garbage Collector
+# git gc
+# git status -s
+# 
+# change some files check "diff" and/or
+# "diff --staged" and/or
+# "diff HEAD"
+# do some "status" 
+# do some "commit" with/o "-m" and/or "-am" 
+# with/o comments/description
+# then some "status"
+# Enjoy !
 # 
 # 
 # 

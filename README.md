@@ -394,6 +394,37 @@ ls -alrt
 # git worktree list
 # rm -Rf ../super_calc_features/
 # git worktree prune
+# - - - - -
+# (toujours dans super_calc)
+# git submodule add https://github.com/plx-wf3/sub_ui.git
+# git status
+# git show :.gitmodules
+# git commit -m "add submodule sub_ui"
+# git push
+# cd ..
+# git clone https://github.com/plx-wf3/super_calc.git super_calc2
+# cd super_calc2
+# ls sub_ui
+# git submodule status
+# git submodule update --init
+# ls sub_ui/
+# cd sub_ui
+# vim calc.html (change title)
+# git commit -am "<your_message>"
+# git log --oneline (note "index")
+# cd ..
+# git submodule status
+# git status 
+# git status -sb
+# - - - - - - - - -
+# faire "difftool" p4v dans le README calc2
+# dans la "home"
+# puis à la fin retourner dans un projet git
+# et faire "git difftool hash_de_qlqch>" voir "git hist"
+# git difftool <hash_de_qlqch>
+# 
+# 
+# 
 # 
 
 ```

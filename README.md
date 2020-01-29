@@ -209,7 +209,8 @@ ls -alrt
 # git check-ref-format --branch 2.x/fix/ticket
 # Création nouvelle branche
 # git branch <nom_de_branche>
-# Changer de branche
+# ***** Changer de branche *****
+# ***** Changer de branche *****
 # git checkout <nom_de_branche>
 # Faire nouvelle branche et se mettre dessus direct
 # git checkout -b <nom_de_branche>
@@ -231,6 +232,7 @@ ls -alrt
 # git st
 # git commit -m "comment string"
 # git log -1
+# git log --oneline
 # (commande suivante: ajoute à la fin du fichier, "append")
 # echo more >> file1.c
 # git commit -am "comment string(2)"
@@ -251,7 +253,104 @@ ls -alrt
 # then some "status"
 # Enjoy !
 # 
+# difference entre fichier
+# git diff <hash_fichier_n>..<hash_fichier_n+1>
 # 
+# git branch <nom_de_branche>
+# git checkout <nom_de_branche>
+# faire de nouveau fichier/modifier ceux creer precedement
+# (commende suivante ajoute "tout")
+# git add .
+# git commit -m "commentaire"
+# 
+# *******************************************
+# Exercice: suite
+# git checkout master 
+# echo "Initial content" > file-test.c
+# cat file-test.c 
+# git add .
+# git commit -m "adding new file on master"
+# git branch newbranch
+# echo "Update on master" > file-test.c 
+# git commit -am "update on master"
+# git checkout newbranch
+# echo "Update on newbranch" > file-test.c 
+# git commit -am "update on newbranch"
+# voir les logs (version control)
+# git checkout master
+# git merge newbranch
+# (-> conflits)
+# echo "merged version" > file-test.c
+# git commit -am "Fixed conflicts"
+# (Commande suivante pour supprimer branche)
+# git branch -d newbranch
+# git branch
+# (my comment: Discount conflicts fix)
+# *******************************************
+# Exercice: suite.
+# (sur la branches master)
+# echo "another one" > file6.c
+# git add .
+# git commit -m "un autre fichier dans le repo"
+# git rm file6.c
+# git status
+# ls (just checking)
+# git reset --hard HEAD
+# git status
+# ls
+# git rm file6.c
+# git status -sb
+# git commit -m "je l'ai detruit"
+# git status
+# ls
+# echo "fichier 7" > file7.c
+# git add file7.c
+# git status
+# ("sauvegarder" travail)
+# git stash
+# git status
+# (liste de tout ce que l'on a sauvegarder)
+# git stash list
+# echo update >> file-test.c
+# git commit -am "update file"
+# (pour ...)
+# git stash pop
+# git status
+# *******************************************
+# Exercice: suite.
+# Cesigit - calc2
+# git clone <url> <name_of_folder_to clone_line>
+# cd calc2/
+# git branch
+# (voir remote branches)
+# git branch -r
+# (voir "message")
+# git branch -av
+# (voir ajouter upstream pour "tracker changement")
+# git remote add upstream <url_du_clone>
+# git remote -v
+# git branch -av
+# -----
+# cd calc_other
+# git branch
+# git branch -av
+# (voir .html -> "ouvrir" dans browser)
+# (suivre branche distante (?))
+# git branch features origin/features
+# git branch
+# (voir "features" et clé)
+# git branch -av
+# ( "-b" crée la branche durant le checkout)
+# git checkout -b cpick
+# git log --oneline features
+# (commande suivante: branch**)
+# git cherry-pick <hash_of_add_max_function>
+# git log cpick --online
+# git rebase <hash_of_add_exp_function>
+# git rebase <hash_of_add_min_function>
+# git log --oneline
+# (cherry-pick && rebase == meme difference)
+# (cherry-pick == "old")
 # 
 # 
 # 

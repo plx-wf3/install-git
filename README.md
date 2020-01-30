@@ -94,7 +94,10 @@ ls -alrt
   git remote add origin ssh://<votre_user>@<votre_ip_adresse/home/centos/git-repo/project-1.git
   git push -u origin master
   git status
+```
 
+## MES NOTES, PERSONNEL, A MOI ET PAS VOUS
+```
 ## "suite"
 # TOUJOURS EN "LOCAL"
 # Connect to gitlabs
